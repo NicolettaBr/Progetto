@@ -1,0 +1,74 @@
+
+body{
+  background-image:url(background.jpg);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contenitore{
+  background-color:rgba(0,0,0,0.5);
+  box-sizing: border-box;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+
+.logo{
+  max-width: 200px;
+  min-width: 200px;
+  margin-left: 70px;
+  display: inline-block;
+  }
+
+header{
+  margin-left: 425px;
+  margin-right: 425px;
+}
+.titolo{
+  color: lime;
+}
+
+section > h3,span{
+  color: white;
+}
+
+nav{
+  background-color: lime;
+  height: 40px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+  nav > div{
+    text-align: center;
+    line-height: 40px;
+
+  }
+  .scelta{
+    display: inline-block;
+  }
+/* non riesco a mettere input[type=checkbox] */
+
+section{
+  margin-left: 300px;
+}
+
+section > div{
+height: 25px;
+border-radius:5px
+}
+
+.carica1{
+  background-color: orange;
+  width: 300px;
+}
+
+.carica2{
+  background-color: green;
+  width: 500px;
+}
+
+.carica3{
+  background-color: red;
+  width: 150px;
+}
